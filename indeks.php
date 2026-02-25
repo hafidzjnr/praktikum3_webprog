@@ -22,7 +22,7 @@ $barang = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </tr>
         <?php $no = 1; foreach($barang as $row): ?> 
         <tr>
-            <td><?= $no++; ?></td> [cite: 72]
+            <td><?= $no++; ?></td> 
             <td><?= htmlspecialchars($row['kode_barang']); ?></td>
             <td><?= htmlspecialchars($row['nama_barang']); ?></td>
             <td><?= htmlspecialchars($row['stok']); ?></td>
