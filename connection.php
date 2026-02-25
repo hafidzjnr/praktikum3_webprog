@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$dbname = 'gudang'; // Nama database yang akan kamu buat
-$username = 'root';
-$password = '';
+$dbname = 'gudang'; 
+$username = 'hafidz';
+$password = 'hafidzjanuar';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
